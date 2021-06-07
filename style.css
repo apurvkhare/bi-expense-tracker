@@ -1,0 +1,63 @@
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    margin: 100px auto;
+    background-color: coral;
+}
+
+.appname {
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.balance {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 75px;
+    background-color: antiquewhite;
+    margin-bottom: 40px;
+}
+
+#costname {
+    width: 200px;
+}
+
+.inputexpense > * {
+    height: 30px;
+}
+
+.expenselist {
+    margin: 35px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    gap: 15px;
+}
+
+.amountwithrupee,
+.expenselistitem {
+    display: flex;
+}
+
+.expenselistitem {
+    justify-content: space-around;
+    width: 450px;
+    background-color: azure;
+}
+
+#costtype {
+    height: 37px;
+}
+
+#add{
+    height: 37px;
+    width: 37px;
+    font-size: large;
+}
