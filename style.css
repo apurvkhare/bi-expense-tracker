@@ -48,6 +48,7 @@
 
 .expenselistitem {
     justify-content: space-around;
+    align-items: center;
     width: 450px;
     background-color: azure;
 }
@@ -60,4 +61,26 @@
     height: 37px;
     width: 37px;
     font-size: large;
+    cursor: pointer;
+}
+
+.expense, .income{
+    color: whitesmoke;
+}
+
+.expense{
+    background-color: red;
+}
+
+.income{
+    background-color: blue;
+}
+
+.editIcon{
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.deleteIcon{
+    cursor: pointer;
 }
